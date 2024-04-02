@@ -548,6 +548,18 @@ section.about{
 
 }
 
+section.errorSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5rem;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-icone);
+    align-items: center;
+    height: 28vh;
+}
+
 section.about img{
     width: 30%;
 
