@@ -81,13 +81,8 @@ gap: 40px;
 
 }
 
-header.cabecalho div.container-menu-usuario img#icone-usuario{
-display: inline-block;
-position: relative;
-max-width: 30px;
-max-height:30px;
-width: auto;
-height: auto;
+header.cabecalho div.container-menu-usuario a{
+    cursor: pointer;
 }
 
 header.cabecalho div.container-menu-usuario a#conta{
@@ -167,7 +162,7 @@ div.centralize-logo{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 53%;
 
 }
 .caixa-de-pesquisa:hover{
@@ -239,6 +234,10 @@ width: 100%;
 .nostyle{
     text-decoration: none;
 
+}
+
+div.midia img{
+    width: 30%;
 }
 
 section.products{
@@ -560,7 +559,15 @@ section.product-view div.all-info button{
         width: 30px;
         
     }
+
+    header.cabecalho div.container-menu-usuario span{
+        cursor: pointer;
+    }
+
     header.cabecalho div.container-menu-usuario img#icone-usuario {
+        width: 20px;
+    }
+    header.cabecalho div.container-menu-usuario img#icone-about {
         width: 20px;
     }
 
