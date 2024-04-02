@@ -1,7 +1,7 @@
 import {} from "react";
 import { Link } from "react-router-dom";
 import "../css/estilo.css";
-import MenuLogo from "../assets/icon_hamburguer.png";
+import MenuLogo from "../assets/home.png";
 import PersonLogo from "../assets/icon_.png";
 import LupaLogo from "../assets/lupa_branca.png";
 import BrandLogo from "../assets/evo.png";
@@ -24,7 +24,9 @@ function Nav() {
         <nav class="cabecalho_nav">
           <div class="frst-part">
             <div class="container-menu">
-              <img src={MenuLogo} alt="icon" id="icone-hamburguer" />
+              <Link to="/" className="nostyle">
+                <img src={MenuLogo} alt="icon" id="icone-home" />
+              </Link>
             </div>
             <div class="search-size">
               <div class="caixa-de-pesquisa">
@@ -41,18 +43,33 @@ function Nav() {
           </div>
           <div class="centralize-logo">
             <div class="container-logo">
-              <img src={BrandLogo} alt="Logo.Ruisse" id="logo" />
+            <Link to="/" className="nostyle">
+            <img src={BrandLogo} alt="Logo.Ruisse" id="logo" />
+              </Link>
+              
             </div>
 
             <div class="container-menu-usuario">
               <a id="conta">
-                <span>Sobre</span>
+                <span>
+                  <Link to="/Sobre" className="nostyle tlink">
+                    Sobre
+                  </Link>
+                </span>
               </a>
               <a id="conta">
-                <span>Contato</span>
+                <span>
+                  <Link to="/Contato" className="nostyle tlink">
+                    Contato
+                  </Link>
+                </span>
               </a>
               <a id="sacola">
-                <span>Produtos</span>
+                <span>
+                  <Link to="/Produtos" className="nostyle tlink">
+                    Produtos
+                  </Link>
+                </span>
               </a>
             </div>
           </div>

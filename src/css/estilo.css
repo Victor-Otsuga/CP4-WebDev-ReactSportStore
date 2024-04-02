@@ -55,7 +55,7 @@ justify-content: space-between;
 align-items: center;
 }
 
-header.cabecalho nav.cabecalho_nav div.container-menu img#icone-hamburguer{
+header.cabecalho nav.cabecalho_nav div.container-menu img#icone-home{
     width: 50px;
   ;
 }
@@ -234,6 +234,12 @@ width: 100%;
 .nostyle{
     text-decoration: none;
 
+}
+
+.tlink{
+    color: var(--cor-icone);
+    font-weight: bold;
+    text-decoration: none;
 }
 
 div.midia img{
