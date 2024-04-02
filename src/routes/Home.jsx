@@ -9,9 +9,9 @@ import ProductCard from "../components/ProductCard";
 function Home() {
   return (
     <>
-      <main class="conteudo">
-        <section class="conteudo-central">
-          <div class="midia">
+      <main className="conteudo">
+        <section className="conteudo-central">
+          <div className="midia">
             <img src={Sport2} alt="Ruisse" />
             <div id="texto-conteudo">
               <h1>(im)PERFEIÇÃO DE RUA</h1>
@@ -19,14 +19,14 @@ function Home() {
           </div>
         </section>
 
-        <section class="products">
+        <section className="products">
         <ProductCard/>
         <ProductCard/>
         <ProductCard/>
         <ProductCard/>
         </section>
 
-        <section class="conteudo-secundario">
+        <section className="conteudo-secundario">
           <img src={Sport3} alt="Ruisse" />
         </section>
       </main>

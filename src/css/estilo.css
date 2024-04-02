@@ -236,10 +236,21 @@ width: 100%;
 
 }
 
+
 .tlink{
     color: var(--cor-icone);
     font-weight: bold;
     text-decoration: none;
+}
+
+.PageTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--cor-icone);
+    padding: 5rem 0 0 0;
 }
 
 div.midia img{
@@ -390,7 +401,6 @@ section.product-view{
 
 section.product-view div.img-view{
     width: 40%;
-    padding: 2rem 0;
     
 }
 
@@ -401,6 +411,7 @@ section.product-view div.all-info{
     flex-direction: column;
     align-items: start;
     height: 100%;
+    padding: 3rem 1rem;
 }
 
 section.product-view div.all-info div.essential{
@@ -466,6 +477,88 @@ section.product-view div.all-info button{
     align-self: flex-end;
 }
 
+section.Contact{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 5rem;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-icone);
+    align-items: center;
+}
+
+section.Contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 30%;
+
+}
+
+section.Contact form input{
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+}
+
+section.Contact form button{
+    background-color: var(--cor-icone);
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+section.Contact form button:hover{
+    background-color: var(--cor-secundaria);
+    color: white;
+    scale: 1.2;
+}
+
+section.Contact div.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 30%;
+}
+
+section.Contact div.contact-info div.contact{
+    display: flex;
+    gap: 1rem;
+}
+
+section.Contact div.contact-info div.contact img{
+    width: 30px;
+}
+
+section.Contact div.contact-info div.contact p{
+    font-size: 1.2rem;
+}
+
+section.about{
+    display: flex;
+    gap: 1rem;
+    padding: 5rem;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-icone);
+    
+
+}
+
+section.about img{
+    width: 30%;
+
+}
+
+section.about p{
+    font-size: 2rem;
+    padding: 3rem;
+    text-align: justify;
+    
+}
 
 @media (max-width: 1440px){
     h1{

@@ -10,9 +10,9 @@ import BagLogo from "../assets/icon_sacola.png";
 function Nav() {
   return (
     <>
-      <header class="cabecalho">
+      <header className="cabecalho">
         <div>
-          <ul class="cabecalho-suporte-contatos">
+          <ul className="cabecalho-suporte-contatos">
             <li>
               <button>Fale Conosco</button>
             </li>
@@ -21,35 +21,35 @@ function Nav() {
             </li>
           </ul>
         </div>
-        <nav class="cabecalho_nav">
-          <div class="frst-part">
-            <div class="container-menu">
+        <nav className="cabecalho_nav">
+          <div className="frst-part">
+            <div className="container-menu">
               <Link to="/" className="nostyle">
                 <img src={MenuLogo} alt="icon" id="icone-home" />
               </Link>
             </div>
-            <div class="search-size">
-              <div class="caixa-de-pesquisa">
+            <div className="search-size">
+              <div className="caixa-de-pesquisa">
                 <input
                   type="text"
-                  class="caixa-texto"
+                  className="caixa-texto"
                   placeholder="Pesquisar"
                 />
-                <a class="botao-pesquisar" href="#">
+                <a className="botao-pesquisar" href="#">
                   <img src={LupaLogo} alt="lupa" id="lupa-botao" />
                 </a>
               </div>
             </div>
           </div>
-          <div class="centralize-logo">
-            <div class="container-logo">
+          <div className="centralize-logo">
+            <div className="container-logo">
             <Link to="/" className="nostyle">
             <img src={BrandLogo} alt="Logo.Ruisse" id="logo" />
               </Link>
               
             </div>
 
-            <div class="container-menu-usuario">
+            <div className="container-menu-usuario">
               <a id="conta">
                 <span>
                   <Link to="/Sobre" className="nostyle tlink">
