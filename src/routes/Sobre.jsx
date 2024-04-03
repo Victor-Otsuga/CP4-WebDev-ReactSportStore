@@ -6,7 +6,7 @@ function Sobre() {
     <>
       <h2 className='PageTitle'>Sobre a Evo Sports</h2>
       <section className="about">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, praesentium in! A soluta nam eius enim, ea facere earum unde adipisci officia. Voluptas consequatur dolorum debitis ipsa corrupti, assumenda nostrum!</p>
+      <p>A Evo Sports transcende a prática esportiva, promovendo a sustentabilidade. Oferecemos equipamentos e acessórios ecológicos de alta performance, com o compromisso de minimizar o impacto ambiental por meio de embalagens biodegradáveis e logística sustentável.</p>
       <img src={Sport6} alt="AboutImg" />
       </section>
     </>

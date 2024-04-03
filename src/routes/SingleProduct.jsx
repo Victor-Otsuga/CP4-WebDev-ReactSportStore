@@ -16,12 +16,12 @@ function SingleProduct() {
             <div className="essential">
               <h1>Bola de Basquete</h1>
               <div className="price-info">
-                <p>R$ 829,41</p>
-                <p className="min">ou 10x de R$ 83,99</p>
+                <p>R$ 150,99</p>
+                <p className="min">ou 10x de R$ 16,00</p>
               </div>
             </div>
             <p className="desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eveniet!
+            Bola de Basquete Supreme Grip: ideal para jogadores sérios e amadores, oferece controle superior e durabilidade para jogar em qualquer superfície. Eleva o desempenho com seu design clássico e construção robusta.
             </p>
             <button>Comprar</button>
           </div>

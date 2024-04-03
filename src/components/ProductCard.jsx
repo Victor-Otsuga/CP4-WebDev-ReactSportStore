@@ -10,11 +10,12 @@ function ProductCard() {
         <div className="product">
           <img src={Sport4} alt="Ruisse" />
           <h2>Bola de Basquete</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eveniet!</p>
-          <p className="price">R$ 829,41</p>
+          <p>Bola de Basquete Supreme Grip: ideal para jogadores sérios e amadores, oferece controle superior e durabilidade para jogar em qualquer superfície. Eleva o desempenho com seu design clássico e construção robusta.</p>
+          <p className="price">R$ 150,99</p>
           <button>Comprar</button>
         </div>
       </Link>
+      
     </>
   );
 }
