@@ -12,12 +12,7 @@ function Produtos() {
       <section className="products">
         <ProductCard/>
         <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
+     
         </section>
     </>
   );

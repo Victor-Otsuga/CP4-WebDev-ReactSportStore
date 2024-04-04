@@ -21,9 +21,7 @@ function Home() {
 
         <section className="products">
         <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
+        
         </section>
 
         <section className="conteudo-secundario">
